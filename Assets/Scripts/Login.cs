@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -52,11 +52,11 @@ public class Login : MonoBehaviour
         yield return www;
         //Debug.Log(" successfull");
        string Playersdata = www.text;
-        PlayerPrefs.SetString("usersinfo", Playersdata);
+        PlayerPrefs.SetString("Email",Username.text);
         PlayerPrefs.SetString("Username", Username.text);
        
         
-        UnityEngine.SceneManagement.SceneManager.LoadScene(3);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(4);
 
     }
 

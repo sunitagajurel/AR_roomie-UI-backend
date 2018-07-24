@@ -1,4 +1,4 @@
-﻿
+
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
@@ -20,6 +20,8 @@ public class Usersdata : MonoBehaviour
         yield return itemsdata;
         string itemsdataString = ;
         // print(itemsdataString);
+
+
         // Username.text = GetDataValue(items[0], "Name:")
         items = itemsdataString.Split(';');
         // print(GetDataValue(items[0], "Name:"));

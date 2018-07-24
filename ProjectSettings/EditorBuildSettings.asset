@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/background.unity
     guid: 603db54951e66b04498bfeed447bbc83
+  - enabled: 1
+    path: Assets/users.unity
+    guid: 95e17aa89f166a348a683bfb9caed880
   m_configObjects: {}
